@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  students: MyString
+  principal: MyString
+  staff: MyString
+  administration: MyString
+
+two:
+  students: MyString
+  principal: MyString
+  staff: MyString
+  administration: MyString

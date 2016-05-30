@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+<%= link_to @account.supplier.name, supplier_path %>
+</p>
+
+<p>
+  <strong>Supplier:</strong>
+  <%= @account.supplier_id %>
+</p>
+
+<p>
+  <strong>Acc type:</strong>
+  <%= @account.acc_type %>
+</p>
+
+<p>
+  <strong>Balance:</strong>
+  <%= @account.balance %>
+</p>
+
+<%= link_to 'Edit', edit_account_path(@account) %> |
+<%= link_to 'Back', accounts_path %>

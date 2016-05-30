@@ -1,0 +1,18 @@
+<h1>Editing Customer</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', @customer %> |
+<%= link_to 'Back', customers_path %>
+
+
+<br />
+
+<table width="400" border="1">
+<th>Order name</th><th>Order Price</th><th>Order Qty</th>
+  <% @customer.orders.each do |result| %>
+<tr>
+    <td><%= result.ord_name %></td><td><%= result.ord_price %></td><td><%= result.ord_qty %></td>
+</tr>
+  <% end %>
+</table>
