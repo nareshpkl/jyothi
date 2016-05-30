@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+#This srinivas sample1 project files
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
